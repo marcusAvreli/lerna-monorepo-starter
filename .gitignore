@@ -2,3 +2,5 @@
 "node_modules/" 
 "package1/node_modules/" 
 "package2/node_modules/" 
+"packages/package1/node_modules/" 
+"packages/package2/node_modules/" 

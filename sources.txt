@@ -1,1 +1,5 @@
 https://medium.com/rewrite-tech/how-to-create-a-monorepo-with-lerna-3ed6dfec5021
+https://stackoverflow.com/questions/37826449/expected-linebreaks-to-be-lf-but-found-crlf-linebreak-style#:~:text=The%20linebreaks%20(new%20lines)%20used,n%22%20for%20(CRLF).
+rules: {
+        'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+ }
